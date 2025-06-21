@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>💰Loan Status Predict</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f4f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .result-container {
+      background-color: white;
+      padding: 40px 50px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .approved {
+      color: green;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .rejected {
+      color: red;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .back-btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .back-btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+<div class="result-container">
+  <h1>💵LOAN STATUS PREDICTION 💵</h1>
+  
+  {% if prediction_text == "Rejected" %}
+    <div class="rejected">❌ Loan Rejected</div>
+  {% elif prediction_text == "Approved" %}
+    <div class="approved">✅ Loan Approved</div>
+  {% endif %}  
+
+  <a href="{{ url_for('home') }}" class="back-btn">← Back to Form</a>
+</div>
+
+</body>
+</html>

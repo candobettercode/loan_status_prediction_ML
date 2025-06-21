@@ -74,3 +74,161 @@
 [21-06-2025 07:35:12] app.py - 15 root- INFO - ML Model is loaded successfully.
 [21-06-2025 07:35:12] _internal.py - 97 werkzeug- WARNING -  * Debugger is active!
 [21-06-2025 07:35:12] _internal.py - 97 werkzeug- INFO -  * Debugger PIN: 125-299-745
+[21-06-2025 08:06:37] app.py - 15 root- INFO - ML Model is loaded successfully.
+[21-06-2025 08:06:37] _internal.py - 97 werkzeug- INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[21-06-2025 08:06:37] _internal.py - 97 werkzeug- INFO - [33mPress CTRL+C to quit[0m
+[21-06-2025 08:06:37] _internal.py - 97 werkzeug- INFO -  * Restarting with stat
+[21-06-2025 08:06:40] app.py - 15 root- INFO - ML Model is loaded successfully.
+[21-06-2025 08:06:40] _internal.py - 97 werkzeug- WARNING -  * Debugger is active!
+[21-06-2025 08:06:40] _internal.py - 97 werkzeug- INFO -  * Debugger PIN: 125-299-745
+[21-06-2025 08:06:46] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 08:06:46] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+[21-06-2025 08:06:49] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 08:06:49] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+[21-06-2025 08:06:50] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 08:06:50] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+[21-06-2025 08:06:56] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 08:06:56] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+[21-06-2025 08:07:04] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 08:07:04] "GET / HTTP/1.1" 200 -
+[21-06-2025 08:08:38] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 08:08:38] "GET / HTTP/1.1" 200 -
+[21-06-2025 08:08:43] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 08:08:43] "GET / HTTP/1.1" 200 -
+[21-06-2025 08:08:44] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 08:08:44] "GET / HTTP/1.1" 200 -
+[21-06-2025 08:08:45] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 08:08:45] "GET / HTTP/1.1" 200 -
+[21-06-2025 08:08:45] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 08:08:45] "GET / HTTP/1.1" 200 -
+[21-06-2025 08:08:46] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 08:08:46] "GET / HTTP/1.1" 200 -
+[21-06-2025 08:12:58] app.py - 66 root- ERROR - Error during prediction: name 'x' is not defined
+[21-06-2025 08:12:58] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 08:12:58] "POST /predict HTTP/1.1" 200 -
+[21-06-2025 08:14:30] app.py - 66 root- ERROR - Error during prediction: name 'x' is not defined
+[21-06-2025 08:14:30] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 08:14:30] "POST /predict HTTP/1.1" 200 -
+[21-06-2025 08:15:20] _internal.py - 97 werkzeug- INFO -  * Detected change in 'E:\\Learning\\loan_status_predict\\app.py', reloading
+[21-06-2025 08:15:21] _internal.py - 97 werkzeug- INFO -  * Restarting with stat
+[21-06-2025 08:15:23] app.py - 15 root- INFO - ML Model is loaded successfully.
+[21-06-2025 08:15:23] _internal.py - 97 werkzeug- WARNING -  * Debugger is active!
+[21-06-2025 08:15:23] _internal.py - 97 werkzeug- INFO -  * Debugger PIN: 125-299-745
+[21-06-2025 08:15:39] app.py - 53 root- INFO - Form data received: [0.0, 0.0, 0.0, 1.0, 0.0, 300.0, 0.0, 400.0, 360.0, 1.0, 0.0]
+[21-06-2025 08:15:39] app.py - 66 root- ERROR - Error during prediction: 'list' object has no attribute 'values'
+[21-06-2025 08:15:39] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 08:15:39] "POST /predict HTTP/1.1" 200 -
+[21-06-2025 08:18:10] _internal.py - 97 werkzeug- INFO -  * Detected change in 'E:\\Learning\\loan_status_predict\\app.py', reloading
+[21-06-2025 08:18:10] _internal.py - 97 werkzeug- INFO -  * Restarting with stat
+[21-06-2025 08:18:13] app.py - 15 root- INFO - ML Model is loaded successfully.
+[21-06-2025 08:18:13] _internal.py - 97 werkzeug- WARNING -  * Debugger is active!
+[21-06-2025 08:18:13] _internal.py - 97 werkzeug- INFO -  * Debugger PIN: 125-299-745
+[21-06-2025 08:18:31] app.py - 53 root- INFO - Form data received: [0.0, 0.0, 0.0, 1.0, 0.0, 5000.0, 0.0, 400.0, 360.0, 0.0, 0.0]
+[21-06-2025 08:18:31] app.py - 56 root- INFO - Scaling Started: [0.0, 0.0, 0.0, 1.0, 0.0, 5000.0, 0.0, 400.0, 360.0, 0.0, 0.0]
+[21-06-2025 08:18:31] app.py - 68 root- ERROR - Error during prediction: 'list' object has no attribute 'values'
+[21-06-2025 08:18:31] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 08:18:31] "POST /predict HTTP/1.1" 200 -
+[21-06-2025 08:21:37] _internal.py - 97 werkzeug- INFO -  * Detected change in 'E:\\Learning\\loan_status_predict\\app.py', reloading
+[21-06-2025 08:21:37] _internal.py - 97 werkzeug- INFO -  * Restarting with stat
+[21-06-2025 08:21:39] app.py - 15 root- INFO - ML Model is loaded successfully.
+[21-06-2025 08:21:39] _internal.py - 97 werkzeug- WARNING -  * Debugger is active!
+[21-06-2025 08:21:39] _internal.py - 97 werkzeug- INFO -  * Debugger PIN: 125-299-745
+[21-06-2025 08:21:57] app.py - 53 root- INFO - Form data received: [1.0, 0.0, 0.0, 1.0, 0.0, 4000.0, 0.0, 300.0, 360.0, 0.0, 0.0]
+[21-06-2025 08:21:57] app.py - 56 root- INFO - Scaling Started: [1.0, 0.0, 0.0, 1.0, 0.0, 4000.0, 0.0, 300.0, 360.0, 0.0, 0.0]
+[21-06-2025 08:21:57] app.py - 58 root- INFO - Scaling Completed: [1.0, 0.0, 0.0, 1.0, 0.0, 4000.0, 0.0, 300.0, 360.0, 0.0, 0.0]
+[21-06-2025 08:21:57] app.py - 62 root- INFO - Prediction result: [0]
+[21-06-2025 08:21:57] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 08:21:57] "POST /predict HTTP/1.1" 200 -
+[21-06-2025 08:22:30] _internal.py - 97 werkzeug- INFO -  * Detected change in 'E:\\Learning\\loan_status_predict\\app.py', reloading
+[21-06-2025 08:22:30] _internal.py - 97 werkzeug- INFO -  * Restarting with stat
+[21-06-2025 08:22:32] app.py - 15 root- INFO - ML Model is loaded successfully.
+[21-06-2025 08:22:32] _internal.py - 97 werkzeug- WARNING -  * Debugger is active!
+[21-06-2025 08:22:32] _internal.py - 97 werkzeug- INFO -  * Debugger PIN: 125-299-745
+[21-06-2025 08:26:00] app.py - 53 root- INFO - Form data received: [0.0, 0.0, 0.0, 1.0, 0.0, 5000.0, 0.0, 200.0, 360.0, 0.0, 0.0]
+[21-06-2025 08:26:00] app.py - 56 root- INFO - Scaling Started: [0.0, 0.0, 0.0, 1.0, 0.0, 5000.0, 0.0, 200.0, 360.0, 0.0, 0.0]
+[21-06-2025 08:26:00] app.py - 58 root- INFO - Scaling Completed: [[-3.11436529 -1.3676945  -0.723386    0.53628252 -0.4407946  -0.04854177
+  -0.53637057  0.67203943  0.26712156 -2.42347673 -1.28644351]]
+[21-06-2025 08:26:00] app.py - 62 root- INFO - Prediction result: [0]
+[21-06-2025 08:26:00] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 08:26:00] "POST /predict HTTP/1.1" 200 -
+[21-06-2025 08:31:15] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 08:31:15] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[21-06-2025 08:43:11] app.py - 53 root- INFO - Form data received: [0.0, 0.0, 0.0, 1.0, 0.0, 5000.0, 0.0, 500.0, 360.0, 0.0, 0.0]
+[21-06-2025 08:43:11] app.py - 56 root- INFO - Scaling Started: [0.0, 0.0, 0.0, 1.0, 0.0, 5000.0, 0.0, 500.0, 360.0, 0.0, 0.0]
+[21-06-2025 08:43:11] app.py - 58 root- INFO - Scaling Completed: [[-3.11436529 -1.3676945  -0.723386    0.53628252 -0.4407946  -0.04854177
+  -0.53637057  4.3569988   0.26712156 -2.42347673 -1.28644351]]
+[21-06-2025 08:43:11] app.py - 62 root- INFO - Prediction result: [0]
+[21-06-2025 08:43:11] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 08:43:11] "POST /predict HTTP/1.1" 200 -
+[21-06-2025 08:43:11] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 08:43:11] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+[21-06-2025 08:44:39] _internal.py - 97 werkzeug- INFO -  * Detected change in 'E:\\Learning\\loan_status_predict\\app.py', reloading
+[21-06-2025 08:44:39] _internal.py - 97 werkzeug- INFO -  * Restarting with stat
+[21-06-2025 08:44:41] app.py - 15 root- INFO - ML Model is loaded successfully.
+[21-06-2025 08:44:41] _internal.py - 97 werkzeug- WARNING -  * Debugger is active!
+[21-06-2025 08:44:41] _internal.py - 97 werkzeug- INFO -  * Debugger PIN: 125-299-745
+[21-06-2025 09:34:34] _internal.py - 97 werkzeug- INFO -  * Detected change in 'E:\\Learning\\loan_status_predict\\app.py', reloading
+[21-06-2025 09:34:34] _internal.py - 97 werkzeug- INFO -  * Restarting with stat
+[21-06-2025 09:35:50] app.py - 15 root- INFO - ML Model is loaded successfully.
+[21-06-2025 09:35:50] _internal.py - 97 werkzeug- INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[21-06-2025 09:35:50] _internal.py - 97 werkzeug- INFO - [33mPress CTRL+C to quit[0m
+[21-06-2025 09:35:50] _internal.py - 97 werkzeug- INFO -  * Restarting with stat
+[21-06-2025 09:35:52] app.py - 15 root- INFO - ML Model is loaded successfully.
+[21-06-2025 09:35:52] _internal.py - 97 werkzeug- WARNING -  * Debugger is active!
+[21-06-2025 09:35:52] _internal.py - 97 werkzeug- INFO -  * Debugger PIN: 125-299-745
+[21-06-2025 09:36:03] app.py - 53 root- INFO - Form data received: [0.0, 0.0, 0.0, 1.0, 0.0, 5000.0, 0.0, 500.0, 360.0, 0.0, 0.0]
+[21-06-2025 09:36:03] app.py - 56 root- INFO - Scaling Started: [0.0, 0.0, 0.0, 1.0, 0.0, 5000.0, 0.0, 500.0, 360.0, 0.0, 0.0]
+[21-06-2025 09:36:03] app.py - 58 root- INFO - Scaling Completed: [[-3.11436529 -1.3676945  -0.723386    0.53628252 -0.4407946  -0.04854177
+  -0.53637057  4.3569988   0.26712156 -2.42347673 -1.28644351]]
+[21-06-2025 09:36:03] app.py - 62 root- INFO - Prediction result: [0]
+[21-06-2025 09:36:03] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 09:36:03] "POST /predict HTTP/1.1" 200 -
+[21-06-2025 09:36:09] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 09:36:09] "GET / HTTP/1.1" 200 -
+[21-06-2025 09:37:19] app.py - 53 root- INFO - Form data received: [0.0, 0.0, 0.0, 1.0, 0.0, 6000.0, 0.0, 360.0, 400.0, 0.0, 0.0]
+[21-06-2025 09:37:19] app.py - 56 root- INFO - Scaling Started: [0.0, 0.0, 0.0, 1.0, 0.0, 6000.0, 0.0, 360.0, 400.0, 0.0, 0.0]
+[21-06-2025 09:37:19] app.py - 58 root- INFO - Scaling Completed: [[-3.11436529 -1.3676945  -0.723386    0.53628252 -0.4407946   0.12251078
+  -0.53637057  2.6373511   0.89594607 -2.42347673 -1.28644351]]
+[21-06-2025 09:37:19] app.py - 62 root- INFO - Prediction result: [0]
+[21-06-2025 09:37:19] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 09:37:19] "POST /predict HTTP/1.1" 200 -
+[21-06-2025 09:38:50] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 09:38:50] "GET / HTTP/1.1" 200 -
+[21-06-2025 09:39:00] app.py - 53 root- INFO - Form data received: [0.0, 0.0, 0.0, 1.0, 0.0, 4000.0, 0.0, 400.0, 360.0, 0.0, 0.0]
+[21-06-2025 09:39:00] app.py - 56 root- INFO - Scaling Started: [0.0, 0.0, 0.0, 1.0, 0.0, 4000.0, 0.0, 400.0, 360.0, 0.0, 0.0]
+[21-06-2025 09:39:00] app.py - 58 root- INFO - Scaling Completed: [[-3.11436529 -1.3676945  -0.723386    0.53628252 -0.4407946  -0.21959431
+  -0.53637057  3.12867901  0.26712156 -2.42347673 -1.28644351]]
+[21-06-2025 09:39:00] app.py - 62 root- INFO - Prediction result: [0]
+[21-06-2025 09:39:00] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 09:39:00] "POST /predict HTTP/1.1" 200 -
+[21-06-2025 09:40:14] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 09:40:14] "GET / HTTP/1.1" 200 -
+[21-06-2025 09:41:44] app.py - 53 root- INFO - Form data received: [0.0, 0.0, 0.0, 1.0, 0.0, 4000.0, 0.0, 200.0, 360.0, 0.0, 0.0]
+[21-06-2025 09:41:44] app.py - 56 root- INFO - Scaling Started: [0.0, 0.0, 0.0, 1.0, 0.0, 4000.0, 0.0, 200.0, 360.0, 0.0, 0.0]
+[21-06-2025 09:41:44] app.py - 58 root- INFO - Scaling Completed: [[-3.11436529 -1.3676945  -0.723386    0.53628252 -0.4407946  -0.21959431
+  -0.53637057  0.67203943  0.26712156 -2.42347673 -1.28644351]]
+[21-06-2025 09:41:44] app.py - 62 root- INFO - Prediction result: [0]
+[21-06-2025 09:41:44] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 09:41:44] "POST /predict HTTP/1.1" 200 -
+[21-06-2025 09:44:30] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 09:44:30] "GET / HTTP/1.1" 200 -
+[21-06-2025 09:44:42] app.py - 53 root- INFO - Form data received: [0.0, 0.0, 0.0, 1.0, 0.0, 4000.0, 0.0, 120.0, 300.0, 0.0, 0.0]
+[21-06-2025 09:44:42] app.py - 56 root- INFO - Scaling Started: [0.0, 0.0, 0.0, 1.0, 0.0, 4000.0, 0.0, 120.0, 300.0, 0.0, 0.0]
+[21-06-2025 09:44:42] app.py - 58 root- INFO - Scaling Completed: [[-3.11436529 -1.3676945  -0.723386    0.53628252 -0.4407946  -0.21959431
+  -0.53637057 -0.3106164  -0.6761152  -2.42347673 -1.28644351]]
+[21-06-2025 09:44:42] app.py - 62 root- INFO - Prediction result: [0]
+[21-06-2025 09:44:42] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 09:44:42] "POST /predict HTTP/1.1" 200 -
+[21-06-2025 09:47:08] _internal.py - 97 werkzeug- INFO -  * Detected change in 'E:\\Learning\\loan_status_predict\\app.py', reloading
+[21-06-2025 09:47:08] _internal.py - 97 werkzeug- INFO -  * Restarting with stat
+[21-06-2025 09:47:10] app.py - 15 root- INFO - ML Model is loaded successfully.
+[21-06-2025 09:47:10] _internal.py - 97 werkzeug- WARNING -  * Debugger is active!
+[21-06-2025 09:47:10] _internal.py - 97 werkzeug- INFO -  * Debugger PIN: 125-299-745
+[21-06-2025 09:47:11] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 09:47:11] "GET / HTTP/1.1" 200 -
+[21-06-2025 09:47:39] app.py - 53 root- INFO - Form data received: [0.0, 0.0, 0.0, 1.0, 0.0, 4000.0, 0.0, 380.0, 120.0, 0.0, 0.0]
+[21-06-2025 09:47:39] app.py - 56 root- INFO - Scaling Started: [0.0, 0.0, 0.0, 1.0, 0.0, 4000.0, 0.0, 380.0, 120.0, 0.0, 0.0]
+[21-06-2025 09:47:39] app.py - 58 root- INFO - Scaling Completed: [[-3.11436529 -1.3676945  -0.723386    0.53628252 -0.4407946  -0.21959431
+  -0.53637057  2.88301505 -3.50582549 -2.42347673 -1.28644351]]
+[21-06-2025 09:47:39] app.py - 62 root- INFO - Prediction result: [0]
+[21-06-2025 09:47:39] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 09:47:39] "POST /predict HTTP/1.1" 200 -
+[21-06-2025 09:48:29] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 09:48:29] "GET / HTTP/1.1" 200 -
+[21-06-2025 09:48:47] app.py - 53 root- INFO - Form data received: [0.0, 0.0, 0.0, 1.0, 0.0, 40000.0, 0.0, 2000.0, 360.0, 0.0, 0.0]
+[21-06-2025 09:48:47] app.py - 56 root- INFO - Scaling Started: [0.0, 0.0, 0.0, 1.0, 0.0, 40000.0, 0.0, 2000.0, 360.0, 0.0, 0.0]
+[21-06-2025 09:48:47] app.py - 58 root- INFO - Scaling Completed: [[-3.11436529 -1.3676945  -0.723386    0.53628252 -0.4407946   5.93829732
+  -0.53637057 22.78179565  0.26712156 -2.42347673 -1.28644351]]
+[21-06-2025 09:48:47] app.py - 62 root- INFO - Prediction result: [0]
+[21-06-2025 09:48:47] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 09:48:47] "POST /predict HTTP/1.1" 200 -
+[21-06-2025 09:48:49] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 09:48:49] "GET / HTTP/1.1" 200 -
+[21-06-2025 09:49:03] app.py - 53 root- INFO - Form data received: [0.0, 0.0, 0.0, 1.0, 0.0, 40000.0, 20000.0, 2000.0, 360.0, 1.0, 0.0]
+[21-06-2025 09:49:03] app.py - 56 root- INFO - Scaling Started: [0.0, 0.0, 0.0, 1.0, 0.0, 40000.0, 20000.0, 2000.0, 360.0, 1.0, 0.0]
+[21-06-2025 09:49:03] app.py - 58 root- INFO - Scaling Completed: [[-3.11436529 -1.3676945  -0.723386    0.53628252 -0.4407946   5.93829732
+   5.84057107 22.78179565  0.26712156  0.41263033 -1.28644351]]
+[21-06-2025 09:49:03] app.py - 62 root- INFO - Prediction result: [0]
+[21-06-2025 09:49:03] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 09:49:03] "POST /predict HTTP/1.1" 200 -
+[21-06-2025 09:49:06] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 09:49:06] "GET / HTTP/1.1" 200 -
+[21-06-2025 09:49:23] app.py - 53 root- INFO - Form data received: [1.0, 0.0, 0.0, 1.0, 0.0, 40000.0, 20000.0, 2000.0, 360.0, 1.0, 0.0]
+[21-06-2025 09:49:23] app.py - 56 root- INFO - Scaling Started: [1.0, 0.0, 0.0, 1.0, 0.0, 40000.0, 20000.0, 2000.0, 360.0, 1.0, 0.0]
+[21-06-2025 09:49:23] app.py - 58 root- INFO - Scaling Completed: [[-0.45270108 -1.3676945  -0.723386    0.53628252 -0.4407946   5.93829732
+   5.84057107 22.78179565  0.26712156  0.41263033 -1.28644351]]
+[21-06-2025 09:49:23] app.py - 62 root- INFO - Prediction result: [0]
+[21-06-2025 09:49:23] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 09:49:23] "POST /predict HTTP/1.1" 200 -
+[21-06-2025 09:49:25] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 09:49:25] "GET / HTTP/1.1" 200 -
+[21-06-2025 09:50:23] app.py - 53 root- INFO - Form data received: [1.0, 1.0, 1.0, 1.0, 1.0, 40000.0, 20000.0, 1000.0, 360.0, 1.0, 2.0]
+[21-06-2025 09:50:23] app.py - 56 root- INFO - Scaling Started: [1.0, 1.0, 1.0, 1.0, 1.0, 40000.0, 20000.0, 1000.0, 360.0, 1.0, 2.0]
+[21-06-2025 09:50:23] app.py - 58 root- INFO - Scaling Completed: [[-0.45270108  0.73115744  0.26822178  0.53628252  1.47981043  5.93829732
+   5.84057107 10.49859775  0.26712156  0.41263033  1.26034932]]
+[21-06-2025 09:50:23] app.py - 62 root- INFO - Prediction result: [1]
+[21-06-2025 09:50:23] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 09:50:23] "POST /predict HTTP/1.1" 200 -
