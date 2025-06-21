@@ -232,3 +232,50 @@
    5.84057107 10.49859775  0.26712156  0.41263033  1.26034932]]
 [21-06-2025 09:50:23] app.py - 62 root- INFO - Prediction result: [1]
 [21-06-2025 09:50:23] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 09:50:23] "POST /predict HTTP/1.1" 200 -
+[21-06-2025 13:10:51] app.py - 15 root- INFO - ML Model is loaded successfully.
+[21-06-2025 13:10:51] _internal.py - 97 werkzeug- INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[21-06-2025 13:10:51] _internal.py - 97 werkzeug- INFO - [33mPress CTRL+C to quit[0m
+[21-06-2025 13:10:51] _internal.py - 97 werkzeug- INFO -  * Restarting with stat
+[21-06-2025 13:10:53] app.py - 15 root- INFO - ML Model is loaded successfully.
+[21-06-2025 13:10:53] _internal.py - 97 werkzeug- WARNING -  * Debugger is active!
+[21-06-2025 13:10:53] _internal.py - 97 werkzeug- INFO -  * Debugger PIN: 125-299-745
+[21-06-2025 13:12:55] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 13:12:55] "GET / HTTP/1.1" 200 -
+[21-06-2025 13:13:15] app.py - 53 root- INFO - Form data received: [1.0, 0.0, 0.0, 1.0, 0.0, 400000.0, 60000.0, 3000.0, 240.0, 0.0, 0.0]
+[21-06-2025 13:13:15] app.py - 56 root- INFO - Scaling Started: [1.0, 0.0, 0.0, 1.0, 0.0, 400000.0, 60000.0, 3000.0, 240.0, 0.0, 0.0]
+[21-06-2025 13:13:15] app.py - 58 root- INFO - Scaling Completed: [[-0.45270108 -1.3676945  -0.723386    0.53628252 -0.4407946  67.51721366
+  18.59445435 35.06499356 -1.61935197 -2.42347673 -1.28644351]]
+[21-06-2025 13:13:15] app.py - 62 root- INFO - Prediction result: [0]
+[21-06-2025 13:13:15] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 13:13:15] "POST /predict HTTP/1.1" 200 -
+[21-06-2025 13:13:16] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 13:13:16] "GET / HTTP/1.1" 200 -
+[21-06-2025 13:13:32] app.py - 53 root- INFO - Form data received: [0.0, 0.0, 0.0, 1.0, 0.0, 50000.0, 60000.0, 3000.0, 240.0, 1.0, 2.0]
+[21-06-2025 13:13:32] app.py - 56 root- INFO - Scaling Started: [0.0, 0.0, 0.0, 1.0, 0.0, 50000.0, 60000.0, 3000.0, 240.0, 1.0, 2.0]
+[21-06-2025 13:13:32] app.py - 58 root- INFO - Scaling Completed: [[-3.11436529 -1.3676945  -0.723386    0.53628252 -0.4407946   7.64882277
+  18.59445435 35.06499356 -1.61935197  0.41263033  1.26034932]]
+[21-06-2025 13:13:32] app.py - 62 root- INFO - Prediction result: [0]
+[21-06-2025 13:13:32] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 13:13:32] "POST /predict HTTP/1.1" 200 -
+[21-06-2025 13:13:34] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 13:13:34] "GET / HTTP/1.1" 200 -
+[21-06-2025 13:14:10] app.py - 53 root- INFO - Form data received: [1.0, 0.0, 1.0, 1.0, 1.0, 40000.0, 60000.0, 2000.0, 240.0, 1.0, 2.0]
+[21-06-2025 13:14:10] app.py - 56 root- INFO - Scaling Started: [1.0, 0.0, 1.0, 1.0, 1.0, 40000.0, 60000.0, 2000.0, 240.0, 1.0, 2.0]
+[21-06-2025 13:14:10] app.py - 58 root- INFO - Scaling Completed: [[-0.45270108 -1.3676945   0.26822178  0.53628252  1.47981043  5.93829732
+  18.59445435 22.78179565 -1.61935197  0.41263033  1.26034932]]
+[21-06-2025 13:14:10] app.py - 62 root- INFO - Prediction result: [0]
+[21-06-2025 13:14:10] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 13:14:10] "POST /predict HTTP/1.1" 200 -
+[21-06-2025 13:14:12] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 13:14:12] "GET / HTTP/1.1" 200 -
+[21-06-2025 13:16:51] app.py - 53 root- INFO - Form data received: [1.0, 0.0, 0.0, 1.0, 1.0, 200000.0, 30000.0, 5000.0, 240.0, 1.0, 2.0]
+[21-06-2025 13:16:51] app.py - 56 root- INFO - Scaling Started: [1.0, 0.0, 0.0, 1.0, 1.0, 200000.0, 30000.0, 5000.0, 240.0, 1.0, 2.0]
+[21-06-2025 13:16:51] app.py - 58 root- INFO - Scaling Completed: [[-0.45270108 -1.3676945  -0.723386    0.53628252  1.47981043 33.30670458
+   9.02904189 59.63138936 -1.61935197  0.41263033  1.26034932]]
+[21-06-2025 13:16:51] app.py - 62 root- INFO - Prediction result: [0]
+[21-06-2025 13:16:51] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 13:16:51] "POST /predict HTTP/1.1" 200 -
+[21-06-2025 13:16:54] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 13:16:54] "GET / HTTP/1.1" 200 -
+[21-06-2025 13:18:07] app.py - 53 root- INFO - Form data received: [1.0, 1.0, 0.0, 1.0, 1.0, 40000.0, 0.0, 300.0, 360.0, 1.0, 2.0]
+[21-06-2025 13:18:07] app.py - 56 root- INFO - Scaling Started: [1.0, 1.0, 0.0, 1.0, 1.0, 40000.0, 0.0, 300.0, 360.0, 1.0, 2.0]
+[21-06-2025 13:18:07] app.py - 58 root- INFO - Scaling Completed: [[-0.45270108  0.73115744 -0.723386    0.53628252  1.47981043  5.93829732
+  -0.53637057  1.90035922  0.26712156  0.41263033  1.26034932]]
+[21-06-2025 13:18:07] app.py - 62 root- INFO - Prediction result: [1]
+[21-06-2025 13:18:07] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 13:18:07] "POST /predict HTTP/1.1" 200 -
+[21-06-2025 17:41:48] app.py - 15 root- INFO - ML Model is loaded successfully.
+[21-06-2025 17:42:29] app.py - 15 root- INFO - ML Model is loaded successfully.
+[21-06-2025 17:43:54] app.py - 15 root- INFO - ML Model is loaded successfully.
+[21-06-2025 17:58:58] app.py - 15 root- INFO - ML Model is loaded successfully.
