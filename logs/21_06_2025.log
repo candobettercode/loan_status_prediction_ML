@@ -1,2 +1,76 @@
 [21-06-2025 05:02:55] main.py - 3 root- INFO - This is a test log message.
 [21-06-2025 05:02:55] main.py - 4 root- INFO - This is a test log message.
+[21-06-2025 06:53:00] app.py - 15 root- INFO - ML Model is loaded successfully.
+[21-06-2025 06:53:00] _internal.py - 97 werkzeug- INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[21-06-2025 06:53:00] _internal.py - 97 werkzeug- INFO - [33mPress CTRL+C to quit[0m
+[21-06-2025 06:53:00] _internal.py - 97 werkzeug- INFO -  * Restarting with stat
+[21-06-2025 06:53:02] app.py - 15 root- INFO - ML Model is loaded successfully.
+[21-06-2025 06:53:02] _internal.py - 97 werkzeug- WARNING -  * Debugger is active!
+[21-06-2025 06:53:02] _internal.py - 97 werkzeug- INFO -  * Debugger PIN: 125-299-745
+[21-06-2025 06:58:59] app.py - 15 root- INFO - ML Model is loaded successfully.
+[21-06-2025 06:58:59] _internal.py - 97 werkzeug- INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[21-06-2025 06:58:59] _internal.py - 97 werkzeug- INFO - [33mPress CTRL+C to quit[0m
+[21-06-2025 06:58:59] _internal.py - 97 werkzeug- INFO -  * Restarting with stat
+[21-06-2025 06:59:01] app.py - 15 root- INFO - ML Model is loaded successfully.
+[21-06-2025 06:59:01] _internal.py - 97 werkzeug- WARNING -  * Debugger is active!
+[21-06-2025 06:59:01] _internal.py - 97 werkzeug- INFO -  * Debugger PIN: 125-299-745
+[21-06-2025 07:02:27] app.py - 15 root- INFO - ML Model is loaded successfully.
+[21-06-2025 07:02:27] _internal.py - 97 werkzeug- INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[21-06-2025 07:02:27] _internal.py - 97 werkzeug- INFO - [33mPress CTRL+C to quit[0m
+[21-06-2025 07:02:27] _internal.py - 97 werkzeug- INFO -  * Restarting with stat
+[21-06-2025 07:02:29] app.py - 15 root- INFO - ML Model is loaded successfully.
+[21-06-2025 07:02:29] _internal.py - 97 werkzeug- WARNING -  * Debugger is active!
+[21-06-2025 07:02:29] _internal.py - 97 werkzeug- INFO -  * Debugger PIN: 125-299-745
+[21-06-2025 07:04:35] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 07:04:35] "GET / HTTP/1.1" 200 -
+[21-06-2025 07:04:35] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 07:04:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[21-06-2025 07:05:08] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 07:05:08] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+[21-06-2025 07:09:30] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 07:09:30] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+[21-06-2025 07:10:05] app.py - 27 root- INFO - Form data received: {}
+[21-06-2025 07:10:05] app.py - 32 root- INFO - Input data for prediction: []
+[21-06-2025 07:10:05] app.py - 45 root- ERROR - Error during prediction: Found array with 0 feature(s) (shape=(1, 0)) while a minimum of 1 is required by StandardScaler.
+[21-06-2025 07:10:05] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 07:10:05] "POST /predict HTTP/1.1" 200 -
+[21-06-2025 07:11:09] app.py - 27 root- INFO - Form data received: {}
+[21-06-2025 07:11:09] app.py - 32 root- INFO - Input data for prediction: []
+[21-06-2025 07:11:09] app.py - 45 root- ERROR - Error during prediction: Found array with 0 feature(s) (shape=(1, 0)) while a minimum of 1 is required by StandardScaler.
+[21-06-2025 07:11:09] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 07:11:09] "POST /predict HTTP/1.1" 200 -
+[21-06-2025 07:13:36] app.py - 27 root- INFO - Form data received: {}
+[21-06-2025 07:13:36] app.py - 32 root- INFO - Input data for prediction: []
+[21-06-2025 07:13:36] app.py - 45 root- ERROR - Error during prediction: Found array with 0 feature(s) (shape=(1, 0)) while a minimum of 1 is required by StandardScaler.
+[21-06-2025 07:13:36] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 07:13:36] "POST /predict HTTP/1.1" 200 -
+[21-06-2025 07:15:29] _internal.py - 97 werkzeug- INFO -  * Detected change in 'E:\\Learning\\loan_status_predict\\app.py', reloading
+[21-06-2025 07:15:29] _internal.py - 97 werkzeug- INFO -  * Restarting with stat
+[21-06-2025 07:15:32] app.py - 15 root- INFO - ML Model is loaded successfully.
+[21-06-2025 07:15:32] _internal.py - 97 werkzeug- WARNING -  * Debugger is active!
+[21-06-2025 07:15:32] _internal.py - 97 werkzeug- INFO -  * Debugger PIN: 125-299-745
+[21-06-2025 07:17:04] app.py - 27 root- INFO - Form data received: {'Gender': 0, 'Married': 1, 'Dependents': 5, 'Education': 0, 'Self_Employed': 1, 'ApplicantIncome': 300, 'CoapplicantIncome': 0, 'LoanAmount': 10000, 'Loan_Amount_Term': 12, 'Credit_History': 1, 'Property_Area': 0}
+[21-06-2025 07:17:04] app.py - 32 root- INFO - Input data for prediction: [[    0     1     5     0     1   300     0 10000    12     1     0]]
+[21-06-2025 07:17:04] app.py - 39 root- INFO - Prediction result: [0]
+[21-06-2025 07:17:04] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 07:17:04] "POST /predict HTTP/1.1" 200 -
+[21-06-2025 07:32:57] app.py - 27 root- INFO - Form data received: {'Gender': 1, 'Married': 1, 'Dependents': 5, 'Education': 0, 'Self_Employed': 1, 'ApplicantIncome': 300, 'CoapplicantIncome': 0, 'LoanAmount': 10000, 'Loan_Amount_Term': 12, 'Credit_History': 1, 'Property_Area': 0}
+[21-06-2025 07:32:57] app.py - 32 root- INFO - Input data for prediction: [[    1     1     5     0     1   300     0 10000    12     1     0]]
+[21-06-2025 07:32:57] app.py - 39 root- INFO - Prediction result: [0]
+[21-06-2025 07:32:57] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 07:32:57] "POST /predict HTTP/1.1" 200 -
+[21-06-2025 07:33:05] app.py - 27 root- INFO - Form data received: {'Gender': 1, 'Married': 1, 'Dependents': 5, 'Education': 0, 'Self_Employed': 1, 'ApplicantIncome': 300, 'CoapplicantIncome': 0, 'LoanAmount': 100, 'Loan_Amount_Term': 12, 'Credit_History': 1, 'Property_Area': 0}
+[21-06-2025 07:33:05] app.py - 32 root- INFO - Input data for prediction: [[  1   1   5   0   1 300   0 100  12   1   0]]
+[21-06-2025 07:33:05] app.py - 39 root- INFO - Prediction result: [0]
+[21-06-2025 07:33:05] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 07:33:05] "POST /predict HTTP/1.1" 200 -
+[21-06-2025 07:33:09] app.py - 27 root- INFO - Form data received: {'Gender': 0, 'Married': 1, 'Dependents': 5, 'Education': 0, 'Self_Employed': 1, 'ApplicantIncome': 300, 'CoapplicantIncome': 0, 'LoanAmount': 100, 'Loan_Amount_Term': 12, 'Credit_History': 1, 'Property_Area': 0}
+[21-06-2025 07:33:09] app.py - 32 root- INFO - Input data for prediction: [[  0   1   5   0   1 300   0 100  12   1   0]]
+[21-06-2025 07:33:09] app.py - 39 root- INFO - Prediction result: [0]
+[21-06-2025 07:33:09] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 07:33:09] "POST /predict HTTP/1.1" 200 -
+[21-06-2025 07:33:21] app.py - 27 root- INFO - Form data received: {'Gender': 0, 'Married': 1, 'Dependents': 5, 'Education': 0, 'Self_Employed': 1, 'ApplicantIncome': 300, 'CoapplicantIncome': 0, 'LoanAmount': 100, 'Loan_Amount_Term': 360, 'Credit_History': 1, 'Property_Area': 0}
+[21-06-2025 07:33:21] app.py - 32 root- INFO - Input data for prediction: [[  0   1   5   0   1 300   0 100 360   1   0]]
+[21-06-2025 07:33:21] app.py - 39 root- INFO - Prediction result: [1]
+[21-06-2025 07:33:21] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 07:33:21] "POST /predict HTTP/1.1" 200 -
+[21-06-2025 07:34:17] app.py - 27 root- INFO - Form data received: {'Gender': 0, 'Married': 1, 'Dependents': 5, 'Education': 0, 'Self_Employed': 1, 'ApplicantIncome': 300, 'CoapplicantIncome': 0, 'LoanAmount': 100, 'Loan_Amount_Term': 360, 'Credit_History': 0, 'Property_Area': 0}
+[21-06-2025 07:34:17] app.py - 32 root- INFO - Input data for prediction: [[  0   1   5   0   1 300   0 100 360   0   0]]
+[21-06-2025 07:34:17] app.py - 39 root- INFO - Prediction result: [0]
+[21-06-2025 07:34:17] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [21/Jun/2025 07:34:17] "POST /predict HTTP/1.1" 200 -
+[21-06-2025 07:35:08] _internal.py - 97 werkzeug- INFO -  * Detected change in 'E:\\Learning\\loan_status_predict\\app.py', reloading
+[21-06-2025 07:35:09] _internal.py - 97 werkzeug- INFO -  * Restarting with stat
+[21-06-2025 07:35:12] app.py - 15 root- INFO - ML Model is loaded successfully.
+[21-06-2025 07:35:12] _internal.py - 97 werkzeug- WARNING -  * Debugger is active!
+[21-06-2025 07:35:12] _internal.py - 97 werkzeug- INFO -  * Debugger PIN: 125-299-745
