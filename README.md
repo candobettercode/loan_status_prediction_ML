@@ -1,9 +1,3 @@
-
-## Demo
-
-![Demo](assets/Accepted_demo.gif) 
-![Demo](assets/Rejected_demo.gif) 
-
 # 💵LOAN STATUS PREDICTION 💵
 
 This is a Flask-based machine learning web application that predicts whether a loan will be **Approved ✅** or **Rejected ❌** based on user input.
@@ -24,6 +18,8 @@ This project uses a logistic regression model trained on a dataset of loan appli
 - 🧪 Unit tests with `pytest`
 - 📁 Logging for debugging and monitoring
 
+## Demo
+![Demo](assets/Accepted_demo.gif) 
 
 ## Create and activate virtual environment
 
