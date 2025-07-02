@@ -1,0 +1,108 @@
+[26-06-2025 10:33:07] app.py - 15 root- INFO - ML Model is loaded successfully.
+[26-06-2025 10:33:07] _internal.py - 97 werkzeug- INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[26-06-2025 10:33:07] _internal.py - 97 werkzeug- INFO - [33mPress CTRL+C to quit[0m
+[26-06-2025 10:33:07] _internal.py - 97 werkzeug- INFO -  * Restarting with stat
+[26-06-2025 10:33:09] app.py - 15 root- INFO - ML Model is loaded successfully.
+[26-06-2025 10:33:09] _internal.py - 97 werkzeug- WARNING -  * Debugger is active!
+[26-06-2025 10:33:09] _internal.py - 97 werkzeug- INFO -  * Debugger PIN: 125-299-745
+[26-06-2025 10:33:55] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [26/Jun/2025 10:33:55] "GET / HTTP/1.1" 200 -
+[26-06-2025 10:33:55] _internal.py - 97 werkzeug- INFO - 127.0.0.1 - - [26/Jun/2025 10:33:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[26-06-2025 10:38:26] app.py - 15 root- INFO - ML Model is loaded successfully.
+[26-06-2025 10:38:26] app.py - 73 root- INFO - Starting Flask app...
+[26-06-2025 10:38:26] _internal.py - 97 werkzeug- INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[26-06-2025 10:38:26] _internal.py - 97 werkzeug- INFO - [33mPress CTRL+C to quit[0m
+[26-06-2025 10:38:26] _internal.py - 97 werkzeug- INFO -  * Restarting with stat
+[26-06-2025 10:38:28] app.py - 15 root- INFO - ML Model is loaded successfully.
+[26-06-2025 10:38:28] app.py - 73 root- INFO - Starting Flask app...
+[26-06-2025 10:38:28] _internal.py - 97 werkzeug- WARNING -  * Debugger is active!
+[26-06-2025 10:38:28] _internal.py - 97 werkzeug- INFO -  * Debugger PIN: 125-299-745
+[26-06-2025 10:40:36] _internal.py - 97 werkzeug- INFO -  * Detected change in 'E:\\Learning\\loan_status_predict\\app.py', reloading
+[26-06-2025 10:40:36] _internal.py - 97 werkzeug- INFO -  * Restarting with stat
+[26-06-2025 10:40:38] app.py - 15 root- INFO - ML Model is loaded successfully.
+[26-06-2025 10:40:38] app.py - 73 root- INFO - Starting Flask app...
+[26-06-2025 10:40:38] _internal.py - 97 werkzeug- WARNING -  * Debugger is active!
+[26-06-2025 10:40:38] _internal.py - 97 werkzeug- INFO -  * Debugger PIN: 125-299-745
+[26-06-2025 10:40:46] app.py - 15 root- INFO - ML Model is loaded successfully.
+[26-06-2025 10:40:46] app.py - 73 root- INFO - Starting Flask app...
+[26-06-2025 10:40:46] _internal.py - 97 werkzeug- INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[26-06-2025 10:40:46] _internal.py - 97 werkzeug- INFO - [33mPress CTRL+C to quit[0m
+[26-06-2025 10:40:46] _internal.py - 97 werkzeug- INFO -  * Restarting with stat
+[26-06-2025 10:40:48] app.py - 15 root- INFO - ML Model is loaded successfully.
+[26-06-2025 10:40:48] app.py - 73 root- INFO - Starting Flask app...
+[26-06-2025 10:40:48] _internal.py - 97 werkzeug- WARNING -  * Debugger is active!
+[26-06-2025 10:40:48] _internal.py - 97 werkzeug- INFO -  * Debugger PIN: 125-299-745
+[26-06-2025 10:41:55] _internal.py - 97 werkzeug- INFO -  * Detected change in 'E:\\Learning\\loan_status_predict\\app1.py', reloading
+[26-06-2025 10:41:55] _internal.py - 97 werkzeug- INFO -  * Restarting with stat
+[26-06-2025 10:41:57] app.py - 15 root- INFO - ML Model is loaded successfully.
+[26-06-2025 10:41:57] app.py - 73 root- INFO - Starting Flask app...
+[26-06-2025 10:41:57] _internal.py - 97 werkzeug- WARNING -  * Debugger is active!
+[26-06-2025 10:41:57] _internal.py - 97 werkzeug- INFO -  * Debugger PIN: 125-299-745
+[26-06-2025 10:44:19] main.py - 15 root- INFO - ML Model is loaded successfully.
+[26-06-2025 10:44:19] main.py - 73 root- INFO - Starting Flask app...
+[26-06-2025 10:44:19] _internal.py - 97 werkzeug- INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[26-06-2025 10:44:19] _internal.py - 97 werkzeug- INFO - [33mPress CTRL+C to quit[0m
+[26-06-2025 10:44:19] _internal.py - 97 werkzeug- INFO -  * Restarting with stat
+[26-06-2025 10:44:21] main.py - 15 root- INFO - ML Model is loaded successfully.
+[26-06-2025 10:44:21] main.py - 73 root- INFO - Starting Flask app...
+[26-06-2025 10:44:21] _internal.py - 97 werkzeug- WARNING -  * Debugger is active!
+[26-06-2025 10:44:21] _internal.py - 97 werkzeug- INFO -  * Debugger PIN: 125-299-745
+[26-06-2025 10:46:48] _internal.py - 97 werkzeug- INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[26-06-2025 10:46:48] _internal.py - 97 werkzeug- INFO - [33mPress CTRL+C to quit[0m
+[26-06-2025 10:46:48] _internal.py - 97 werkzeug- INFO -  * Restarting with stat
+[26-06-2025 10:46:49] _internal.py - 97 werkzeug- WARNING -  * Debugger is active!
+[26-06-2025 10:46:49] _internal.py - 97 werkzeug- INFO -  * Debugger PIN: 125-299-745
+[26-06-2025 11:40:01] main.py - 19 src.logging.logger - INFO - Starting Flask app...
+[26-06-2025 11:40:01] main.py - 19 src.logging.logger - INFO - Starting Flask app...
+[26-06-2025 11:40:25] main.py - 19 src.logging.logger - INFO - Starting Flask app!!!!!
+[26-06-2025 11:41:16] main.py - 19 src.logging.logger - INFO - Starting Flask app!!!!!
+[26-06-2025 11:41:16] main.py - 19 src.logging.logger - INFO - Starting Flask app!!!!!
+[26-06-2025 11:42:45] main.py - 20 src.logging.logger - INFO - Starting Flask app!!!!!
+[26-06-2025 11:42:46] main.py - 20 src.logging.logger - INFO - Starting Flask app!!!!!
+[26-06-2025 11:43:04] main.py - 13 src.logging.logger - INFO - App started successfully
+[26-06-2025 11:50:49] app.py - 15 src.logging.logger - INFO - ML Model is loaded successfully.
+[26-06-2025 11:50:49] app.py - 72 src.logging.logger - INFO - Starting Flask app...
+[26-06-2025 11:50:51] app.py - 15 src.logging.logger - INFO - ML Model is loaded successfully.
+[26-06-2025 11:50:51] app.py - 72 src.logging.logger - INFO - Starting Flask app...
+[26-06-2025 11:52:03] app.py - 19 src.logging.logger - INFO - Index page is rendered successfully.
+[26-06-2025 11:52:25] app.py - 53 src.logging.logger - INFO - Form data received: [1.0, 0.0, 0.0, 1.0, 0.0, 500000.0, 400000.0, 3000.0, 480.0, 1.0, 0.0]
+[26-06-2025 11:52:25] app.py - 56 src.logging.logger - INFO - Scaling Started: [1.0, 0.0, 0.0, 1.0, 0.0, 500000.0, 400000.0, 3000.0, 480.0, 1.0, 0.0]
+[26-06-2025 11:52:25] app.py - 58 src.logging.logger - INFO - Scaling Completed: [[ -0.45270108  -1.3676945   -0.723386     0.53628252  -0.4407946
+   84.6224682  127.00246222  35.06499356   2.15359508   0.41263033
+   -1.28644351]]
+[26-06-2025 11:52:25] app.py - 62 src.logging.logger - INFO - Prediction result: [0]
+[26-06-2025 11:54:25] app.py - 19 src.logging.logger - INFO - Index page is rendered successfully.
+[26-06-2025 12:10:09] app.py - 15 src.logging.logger - INFO - ML Model is loaded successfully.
+[26-06-2025 12:10:09] app.py - 19 src.logging.logger - INFO - Index page is rendered successfully.
+[26-06-2025 12:25:36] app.py - 15 src.logging.logger - INFO - ML Model is loaded successfully.
+[26-06-2025 12:25:36] app.py - 72 src.logging.logger - INFO - Starting Flask app...
+[26-06-2025 12:25:38] app.py - 15 src.logging.logger - INFO - ML Model is loaded successfully.
+[26-06-2025 12:25:38] app.py - 72 src.logging.logger - INFO - Starting Flask app...
+[26-06-2025 12:25:41] app.py - 19 src.logging.logger - INFO - Index page is rendered successfully.
+[26-06-2025 12:31:51] app.py - 15 src.logging.logger - INFO - ML Model is loaded successfully.
+[26-06-2025 12:31:51] app.py - 19 src.logging.logger - INFO - Index page is rendered successfully.
+[26-06-2025 12:34:57] app.py - 15 src.logging.logger - INFO - ML Model is loaded successfully.
+[26-06-2025 12:34:57] app.py - 19 src.logging.logger - INFO - Index page is rendered successfully.
+[26-06-2025 13:20:32] app.py - 15 src.logging.logger - INFO - ML Model is loaded successfully.
+[26-06-2025 13:20:32] app.py - 19 src.logging.logger - INFO - Index page is rendered successfully.
+[26-06-2025 13:21:04] app.py - 15 src.logging.logger - INFO - ML Model is loaded successfully.
+[26-06-2025 13:21:04] app.py - 19 src.logging.logger - INFO - Index page is rendered successfully.
+[26-06-2025 13:21:12] app.py - 15 src.logging.logger - INFO - ML Model is loaded successfully.
+[26-06-2025 13:21:12] app.py - 19 src.logging.logger - INFO - Index page is rendered successfully.
+[26-06-2025 13:21:12] app.py - 27 src.logging.logger - INFO - Form data received: {'ApplicantIncome': 5000, 'CoapplicantIncome': 0, 'Credit_History': 1, 'Dependents': 0, 'Education': 1, 'Gender': 1, 'LoanAmount': 150, 'Loan_Amount_Term': 360, 'Married': 1, 'Property_Area': 1, 'Self_Employed': 1}
+[26-06-2025 13:21:12] app.py - 32 src.logging.logger - INFO - Input data for prediction: [[5000    0    1    0    1    1  150  360    1    1    1]]
+[26-06-2025 13:21:12] app.py - 39 src.logging.logger - INFO - Prediction result: [1]
+[26-06-2025 13:23:29] app.py - 15 src.logging.logger - INFO - ML Model is loaded successfully.
+[26-06-2025 13:23:29] app.py - 19 src.logging.logger - INFO - Index page is rendered successfully.
+[26-06-2025 13:23:29] app.py - 27 src.logging.logger - INFO - Form data received: {'ApplicantIncome': 5000, 'CoapplicantIncome': 0, 'Credit_History': 1, 'Dependents': 0, 'Education': 1, 'Gender': 1, 'LoanAmount': 150, 'Loan_Amount_Term': 360, 'Married': 1, 'Property_Area': 1, 'Self_Employed': 1}
+[26-06-2025 13:23:29] app.py - 32 src.logging.logger - INFO - Input data for prediction: [[5000    0    1    0    1    1  150  360    1    1    1]]
+[26-06-2025 13:23:29] app.py - 39 src.logging.logger - INFO - Prediction result: [1]
+[26-06-2025 13:25:42] app.py - 15 src.logging.logger - INFO - ML Model is loaded successfully.
+[26-06-2025 13:25:42] app.py - 19 src.logging.logger - INFO - Index page is rendered successfully.
+[26-06-2025 13:25:42] app.py - 27 src.logging.logger - INFO - Form data received: {'ApplicantIncome': 5000, 'CoapplicantIncome': 0, 'Credit_History': 1, 'Dependents': 0, 'Education': 1, 'Gender': 1, 'LoanAmount': 150, 'Loan_Amount_Term': 360, 'Married': 1, 'Property_Area': 1, 'Self_Employed': 1}
+[26-06-2025 13:25:42] app.py - 32 src.logging.logger - INFO - Input data for prediction: [[5000    0    1    0    1    1  150  360    1    1    1]]
+[26-06-2025 13:25:42] app.py - 39 src.logging.logger - INFO - Prediction result: [1]

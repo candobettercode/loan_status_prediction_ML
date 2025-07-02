@@ -1,5 +1,9 @@
+import sys
+import os
 import pytest
 from app import app
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 @pytest.fixture
 def client():
@@ -10,12 +14,13 @@ def client():
 def test_home(client):
     response = client.get('/')
     assert response.status_code == 200
-    assert response.json == {'message': 'Index page is rendered successfully.'}
-'''
+    assert b"LOAN STATUS" in response.data
+    # assert response.json == {'message': 'Index page is rendered successfully.'}
+
 def test_predict(client):
     test_data = {
         "Gender":1,
-        "Married":1,
+        "Married":1, 
         "Dependents":0,
         "Education":1,
         "Self_Employed":1,
@@ -29,5 +34,5 @@ def test_predict(client):
     
     response = client.post('/predict_api', json={'data': test_data})
     assert response.status_code == 200
-    assert response.json == {'prediction': 1, 'prediction': 0}  # Assuming binary classification 
-    '''
+    assert response.json == {'prediction': 1}  # Assuming binary classification 
+    

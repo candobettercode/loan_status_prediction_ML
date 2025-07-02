@@ -1,0 +1,24 @@
+[02-07-2025 21:55:04] app.py - 15 src.logging.logger - INFO - ML Model is loaded successfully.
+[02-07-2025 21:55:04] app.py - 72 src.logging.logger - INFO - Starting Flask app...
+[02-07-2025 21:55:06] app.py - 15 src.logging.logger - INFO - ML Model is loaded successfully.
+[02-07-2025 21:55:06] app.py - 72 src.logging.logger - INFO - Starting Flask app...
+[02-07-2025 21:55:08] app.py - 19 src.logging.logger - INFO - Index page is rendered successfully.
+[02-07-2025 22:01:48] app.py - 53 src.logging.logger - INFO - Form data received: [0.0, 0.0, 1.0, 1.0, 0.0, 50000.0, 30000.0, 3000.0, 480.0, 1.0, 2.0]
+[02-07-2025 22:01:48] app.py - 56 src.logging.logger - INFO - Scaling Started: [0.0, 0.0, 1.0, 1.0, 0.0, 50000.0, 30000.0, 3000.0, 480.0, 1.0, 2.0]
+[02-07-2025 22:01:48] app.py - 58 src.logging.logger - INFO - Scaling Completed: [[-3.11436529 -1.3676945   0.26822178  0.53628252 -0.4407946   7.64882277
+   9.02904189 35.06499356  2.15359508  0.41263033  1.26034932]]
+[02-07-2025 22:01:48] app.py - 62 src.logging.logger - INFO - Prediction result: [1]
+[02-07-2025 22:01:50] app.py - 19 src.logging.logger - INFO - Index page is rendered successfully.
+[02-07-2025 22:03:32] app.py - 53 src.logging.logger - INFO - Form data received: [0.0, 1.0, 1.0, 1.0, 0.0, 4000.0, 50000.0, 2000.0, 360.0, 0.0, 2.0]
+[02-07-2025 22:03:32] app.py - 56 src.logging.logger - INFO - Scaling Started: [0.0, 1.0, 1.0, 1.0, 0.0, 4000.0, 50000.0, 2000.0, 360.0, 0.0, 2.0]
+[02-07-2025 22:03:32] app.py - 58 src.logging.logger - INFO - Scaling Completed: [[-3.11436529  0.73115744  0.26822178  0.53628252 -0.4407946  -0.21959431
+  15.40598353 22.78179565  0.26712156 -2.42347673  1.26034932]]
+[02-07-2025 22:03:32] app.py - 62 src.logging.logger - INFO - Prediction result: [0]
+[02-07-2025 22:07:37] app.py - 19 src.logging.logger - INFO - Index page is rendered successfully.
+[02-07-2025 22:08:10] app.py - 53 src.logging.logger - INFO - Form data received: [1.0, 1.0, 1.0, 1.0, 1.0, 4000000.0, 200000.0, 10000.0, 480.0, 1.0, 2.0]
+[02-07-2025 22:08:10] app.py - 56 src.logging.logger - INFO - Scaling Started: [1.0, 1.0, 1.0, 1.0, 1.0, 4000000.0, 200000.0, 10000.0, 480.0, 1.0, 2.0]
+[02-07-2025 22:08:10] app.py - 58 src.logging.logger - INFO - Scaling Completed: [[-4.52701084e-01  7.31157435e-01  2.68221776e-01  5.36282523e-01
+   1.47981043e+00  6.83306377e+02  6.32330458e+01  1.21047379e+02
+   2.15359508e+00  4.12630330e-01  1.26034932e+00]]
+[02-07-2025 22:08:10] app.py - 62 src.logging.logger - INFO - Prediction result: [1]
+[02-07-2025 22:08:14] app.py - 19 src.logging.logger - INFO - Index page is rendered successfully.
