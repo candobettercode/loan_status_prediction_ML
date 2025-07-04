@@ -19,7 +19,7 @@ This project uses a logistic regression model trained on a dataset of loan appli
 - 📁 Logging for debugging and monitoring
 
 ## Demo
-![Demo](assets/loan accepted.gif) 
+![Demo](assets/loan_accepted.gif) 
 
 ## Create and activate virtual environment
 
