@@ -1,12 +1,13 @@
 import joblib
 import os
 from flask import Flask, request, render_template, jsonify, url_for, redirect
-
+from flask import Flask, request, jsonify
+from flask_cors import CORS
 import numpy as np
 
 from src.logging.logger import logger 
-
 app = Flask(__name__)
+CORS(app) 
 
 # Load the model
 model = joblib.load(os.path.join('models', 'loan_status_predict'))
@@ -17,7 +18,9 @@ logger.info("ML Model is loaded successfully.")
 @app.route('/')
 def home():
     logger.info("Index page is rendered successfully.")
-    return render_template('index.html')
+    return {
+        "Info":"Index page is rendered successfully."
+    }
     
 @app.route('/predict_api', methods=['POST'])
 def predict_api():
@@ -45,28 +48,52 @@ def predict_api():
         logger.error(f"Error during prediction: {e}")
         return jsonify({'error': str(e)})
     
+from flask import request, jsonify
+
 @app.route('/predict', methods=['POST'])
 def predict():
     try:
-        # Get the form data
-        data = [float(x) for x in request.form.values()]
+        # Get JSON data
+        data = request.get_json()
         logger.info(f"Form data received: {data}")
 
+        # Convert dict to list in correct feature order
+        input_features = [
+            data['Gender'],
+            data['Married'],
+            data['Dependents'],
+            data['Education'],
+            data['Self_Employed'],
+            data['ApplicantIncome'],
+            data['CoapplicantIncome'],
+            data['LoanAmount'],
+            data['Loan_Amount_Term'],
+            data['Credit_History'],
+            data['Property_Area']
+        ]
+
+        logger.info(f"Input features list: {input_features}")
+
         # Scale the input data
-        logger.info(f"Scaling Started: {data}")
-        input_data = scaler.transform(np.array(data).reshape(1, -1))
-        logger.info(f"Scaling Completed: {input_data}")
+        input_array = np.array(input_features).reshape(1, -1)
+        logger.info(f"Numpy array for scaling: {input_array}")
+
+        scaled_input = scaler.transform(input_array)
+        logger.info(f"Scaled input: {scaled_input}")
 
         # Make the prediction
-        prediction = model.predict(input_data)
+        prediction = model.predict(scaled_input)
         logger.info(f"Prediction result: {prediction}")
 
-        # Return the prediction result
-        return render_template('result.html', prediction_text=f'{"Approved" if prediction[0] == 1 else "Rejected"}')
-    
+        # Return JSON response
+        prediction_text = 'Approved' if prediction[0] == 1 else 'Rejected'
+        return jsonify({
+            "status": prediction_text
+        })
+
     except Exception as e:
         logger.error(f"Error during prediction: {e}")
-        return render_template('result.html', error=str(e))
+        return jsonify({"error": str(e)}), 500
     
 if __name__ == '__main__':
     logger.info("Starting Flask app...")
