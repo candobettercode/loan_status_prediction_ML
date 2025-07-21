@@ -4,3 +4,4 @@ Flask
 scikit-learn
 matplotlib
 pytest
+gunicorn 
